@@ -1,0 +1,24 @@
+# Ignorăm fișierele temporare generate de Vivado
+*.cache/
+*.runs/
+*.sim/
+*.hw/
+*.ip_user_files/
+*.jou
+*.log
+*.str
+*.xpr
+
+# Ignorăm fișierele compilate de C++
+*.exe
+*.obj
+*.pdb
+*.ilk
+*.idb
+
+# Păstrăm DOAR codul sursă scris de noi
+!*.v
+!*.sv
+!*.xdc
+!*.cpp
+!*.py
