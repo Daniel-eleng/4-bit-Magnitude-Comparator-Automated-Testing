@@ -55,3 +55,5 @@ Run the c++ code(`comparator.cpp`) to generate 2 files: `rezultate_usor_de_citit
 
 ![Wave forms](results/waveform.png)
 ![Tcl Console](results/Tcl_Console.png)
+
+* `Final note`:If you don't have cpp or/and python installed, all the text files are allready in the data folder. You can just run the simulation using Vivado.
