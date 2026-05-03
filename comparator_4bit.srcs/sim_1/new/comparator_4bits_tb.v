@@ -42,8 +42,8 @@ module comparator_4bits_tb;
         contor_teste_cu_succes = 0;
         contor_teste_esuate = 0;
 
-        deschidere_fisier_cpp = $fopen("../../../../data/rezultate_asteptate.txt","r");
-        deschidere_fisier_python = $fopen("../../../../data/intrari_test.txt","r");
+        deschidere_fisier_cpp = $fopen("rezultate_asteptate.txt","r");
+        deschidere_fisier_python = $fopen("intrari_test.txt","r");
         if(deschidere_fisier_cpp == 0 && deschidere_fisier_python == 0)begin
             $display("EROARE CITIRE FISIER!");
             $finish;
