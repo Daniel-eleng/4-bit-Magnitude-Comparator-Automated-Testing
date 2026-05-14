@@ -30,7 +30,8 @@ This project features a structured 4-bit Comparator designed in Verilog. Beyond 
 
 |Folder/File| Description |
 |:----------|:------------|
-| `src` | Contains all hardware circuits needed for project.|
+| `Design` | Contains all the required design files.
+| `Testbench` | Contains the testbench file.
 | `cpp_model` | Contains c++ source code for generating "Golden Model".|
 | `scripts` | Contains python source code for generating all needed inputs.|
 | `data` | Contains all the necessary text folders used during simulation.|
